@@ -1,0 +1,31 @@
+body{
+    font-family: 'Avenir', sans-serif;
+}
+
+h1{
+    /* color can be name, rgb, rgba, hex */
+    color:brown;
+    font-size: 100px;
+
+    /* the serif after Palatino below is a backup incase the website cant get Palatino */
+    font-family: 'Palatino', serif;
+}
+
+#second-header{
+
+    color: #000000;
+}
+
+p{
+    font-size: 14px;
+    width: 30%; /* this is based on the width of the wrapper */
+}
+
+#hero-wrapper{
+    /* width is necessary to be able to use margins */
+    width: 600px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    margin-top:10%
+    }
