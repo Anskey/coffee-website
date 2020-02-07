@@ -1,22 +1,62 @@
 body{
-    font-family: 'Avenir', sans-serif;   
+    font-family: 'Avenir', sans-serif;  
+    
+}
+
+#navbar{
+    position: absolute;
+    top: 0px;
+    width: 100vw;
+    z-index: 2;
+
+    display:flex;
+    flex-direction: row;
+}
+
+#nav-social{
+    width: 50%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    height: 50px;
+}
+
+#nav-text{
+    width: 50%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    height: 50px;
+}
+
+#icon{
+    height: 22px;
+    margin-right:50px;
+}
+
+#menu-link{
+    
+    color:white;
+    margin-left: 50px;
 }
 
 h1{
     /* color can be name, rgb, rgba, hex */
-    color:#000000;
+    color:#451F11;
     font-size: 100px;
 
     /* the serif after Palatino below is a backup incase the website cant get Palatino */
     font-family: 'Palatino', serif;
 
-    display: inline-block;
-
 }
 
 #second-header{
 
-    color: #ffffff;
+    color: white;
     
 }
 
@@ -26,17 +66,31 @@ p{
     
 }
 
+#hero-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+
 #hero-wrapper{
     /* width is necessary to be able to use margins */
     width: 600px;
-    margin-right: auto;
-    margin-left: auto;
+    
     text-align: center;
     margin-top:10%;
 
     position: relative;
     z-index: 2;
     }
+
+#heading-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
 
 #hero-beans{
     /*google css backgrounds for w3schools.com*/
