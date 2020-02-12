@@ -52,17 +52,22 @@ h1{
     /* the serif after Palatino below is a backup incase the website cant get Palatino */
     font-family: 'Palatino', serif;
 
+    margin-bottom: 0px;
+
 }
 
 #second-header{
 
     color: white;
+    padding-left: 20px;
     
 }
 
-p{
+#subtitle{
     font-size: 14px;
-    width: 30%; /* this is based on the width of the wrapper */
+    width: 44%; /* this is based on the width of the wrapper */
+    text-align: right;
+
     
 }
 
@@ -79,10 +84,9 @@ p{
     width: 600px;
     
     text-align: center;
-    margin-top:10%;
-
     position: relative;
     z-index: 2;
+    padding-left: 37px;
     }
 
 #heading-wrapper{
@@ -105,6 +109,48 @@ p{
     right: 0%;
 
     width:50%;
-    height:600px;
-    
+    height:100vh;
+
+}
+
+.standard-margin-section{
+    max-width: 960px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 200px;
+}
+
+.columns-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.column{
+    background-color: lightgrey;
+    max-width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.column-image{
+    width: 100%;
+}
+
+.column-text-wrapper{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 5px;
+}
+
+.middle-column{
+    margin-left: 20px;
+    margin-right: 20px;
 }
