@@ -11,7 +11,7 @@ body{
     position: absolute;
     top: 0px;
     width: 100vw;
-    z-index: 2;
+    z-index: 5;
 
     display:flex;
     flex-direction: row;
@@ -46,6 +46,10 @@ body{
     
     color:white;
     margin-left: 50px;
+}
+
+#dropdown{
+    display: none;
 }
 
 h1{
@@ -289,7 +293,7 @@ input[type=text], textarea{
     border: none;
     background-color: #F7F7F7;
     padding-left: 10px;
-
+    font-family: 'Palatino', serif;
     font-size: 20px;
   }
 
@@ -396,6 +400,86 @@ input[type=submit]:hover{
     .secondone{
         grid-column: 1/2;
         grid-row: 4/5;
+    }
+
+    .contact-section{
+        flex-direction: column;
+        align-items: flex-end;
+    }
+
+    .contact-img-wrapper{
+        background-image: none;
+    }
+
+    #contact-heading{
+        color: #451F11;
+        text-align: right;
+        margin-bottom: 0px;
+    }
+
+    .form-wrapper{
+        width: 80%;
+    }
+
+    .footer{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-link{
+        margin-left: 35px;
+    }
+
+    #nav-social{
+        display: none;
+    }
+
+    #nav-text{
+        display: none;
+    }
+
+    #navbar{
+        justify-content: flex-end;
+    }
+
+    #dropdown{
+        display: flex;
+        flex-direction: column;
+
+        padding: 25px;
+    }
+
+    #dropdown-button{
+        background-image: url("img/drop_down.svg");
+        background-size: cover;
+        height: 30px;
+        width: 40px;   
+    }
+
+    #dropdown-content{
+        display: flex;
+        display: none;
+        flex-direction: column;
+
+        position: absolute;
+        margin-top: 30px;
+        right: 0px;
+        min-width: 160px;
+    }
+
+    #dropdown:hover #dropdown-content{
+        display: flex;
+    }
+
+    .link{
+        padding: 25px;
+        text-decoration: none;
+        color: #451F11
+
+    }
+
+    .link:hover{
+        background-color: lightgrey;
     }
     
 }
