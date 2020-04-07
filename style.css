@@ -1,3 +1,8 @@
+
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     font-family: 'Avenir', sans-serif;  
     margin:0px;
@@ -346,6 +351,21 @@ input[type=submit]:hover{
 #footer-heading{
     margin: 0px;
     font-size: 35px;
+}
+
+#jumptotop{
+    background: none;
+    box-shadow: none;
+    border: none;
+    width: 75px;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+}
+
+#topbuttonimg{
+    width: 100%;
 }
 
 @media screen and (max-width: 640px){
