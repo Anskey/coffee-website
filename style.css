@@ -321,7 +321,7 @@ input[type=submit]:hover{
 
 #alert{
     color: red;
-    display: none;
+    height: 10px;
 }
 
 .footer-wrapper{

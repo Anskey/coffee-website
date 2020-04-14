@@ -29,9 +29,9 @@ function submitForm(e) {
 
 function validate(name,email,message){
     if (name === "" || email === "" || message === "" ){
-        alert.style.display = "block";
-        alert.style.color = red;
+        alert.innerHTML = "Please complete all fields to submit form.";
+        
     } else{
-        alert.style.display = "none";
+        alert.innerHTML = "";
     }
 }
