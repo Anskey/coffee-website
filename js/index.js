@@ -19,6 +19,7 @@ let submit = document.getElementById("submit");
 let name = document.getElementById("name");
 let email = document.getElementById("email");
 let message = document.getElementById("message");
+let alert = document.getElementById("alert")
 
 submit.addEventListener("click", submitForm);
 function submitForm(e) {
@@ -28,6 +29,9 @@ function submitForm(e) {
 
 function validate(name,email,message){
     if (name === "" || email === "" || message === "" ){
-        window.alert("Please fill in all the information.");
+        alert.style.display = "block";
+        alert.style.color = red;
+    } else{
+        alert.style.display = "none";
     }
 }

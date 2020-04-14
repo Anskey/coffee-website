@@ -319,6 +319,11 @@ input[type=submit]:hover{
 
 }
 
+#alert{
+    color: red;
+    display: none;
+}
+
 .footer-wrapper{
     margin-top: 200px;
     background-color: white;
