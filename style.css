@@ -4,7 +4,7 @@ html{
 }
 
 body{
-    font-family: 'Avenir', sans-serif;  
+    font-family: 'Nunito Sans', sans-serif;
     margin:0px;
     background-color: #F7F7F7;
 
@@ -174,7 +174,7 @@ p{
     top: 500px;
     width: 50%;
     z-index: 3;
-    padding-left: 120px;
+    padding-left: 110px;
 
 }
 

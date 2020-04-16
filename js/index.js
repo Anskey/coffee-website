@@ -33,7 +33,7 @@ function validate(name,email,message){
         
     } else{
         alert.innerHTML = "";
-        /*Send email*/
+        //Send email
 
         emailUrl = "https://hooks.zapier.com/hooks/catch/5963107/o9gm325";
         let emailObj = {
@@ -49,7 +49,7 @@ function validate(name,email,message){
     }
 }
 
-/*Get coffee price*/
+//Get coffee price
 
 coffeePriceUrl = "https://api.tradingeconomics.com/markets/search/coffee?c=guest:guest&f=json"
 let priceRequest = new XMLHttpRequest();
