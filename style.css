@@ -167,22 +167,24 @@ p{
 }
 
 #price-wrapper{
+    position: absolute;
     display: flex;
     justify-content: center;
+    align-items: center;
+    top: 500px;
+    width: 50%;
+    z-index: 3;
+    padding-left: 120px;
 
 }
 
 #price-title{
-    width: 50%;
-    margin-left: 160px;
     color:#451F11;
 }
 
 #price-subtitle{
-    width:80%;
     color: white;
-    margin-right: 100px;
-    padding-top: 5px;
+    padding-left: 10px;
 }
 
 .standard-margin-section{

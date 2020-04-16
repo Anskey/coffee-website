@@ -46,7 +46,6 @@ function validate(name,email,message){
         let emailRequest = new XMLHttpRequest();
         emailRequest.open("POST", emailUrl);
         emailRequest.send(JSON.stringify(emailObj));
-        console.log()     
     }
 }
 
